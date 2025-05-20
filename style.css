@@ -1,0 +1,66 @@
+.backgroundimage{
+    background-image: url(./images/free\ fire\ BG.jpeg);
+    height: 1000px;
+    width: 1200;
+}
+h1{
+    text-align: center; 
+    color: #FDBA13;
+    padding-top: 100px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+p{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Inscription{
+    width: 700px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+}
+h2{
+    color: #FDBA13;
+}
+
+input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+} 
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    color: #f2f0ff;
+}
+
+button{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #FDBA13; 
+}
+form{
+    border: 10px;
+}
+
+button:hover{
+    background: #fff
+}
+@media (max-width: 768px) {
+    .Inscription {
+        width: 95%;
+        padding: 20px;
+}
+    
+    }
