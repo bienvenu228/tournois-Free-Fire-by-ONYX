@@ -15,7 +15,17 @@ p{
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.social-links{
+    text-align: center;
+   
+}
+.social-links a{
+ text-decoration: none;
+    color: #fff;
+}
+h3{
+    color: #fff;
+}
 .Inscription{
     width: 700px;
     text-align: left;
@@ -60,7 +70,14 @@ button:hover{
 @media (max-width: 768px) {
     .Inscription {
         width: 95%;
-        padding: 20px;
+        padding: 10px;
 }
     
+    }
+
+   @media (max-width: 480px) {
+    .Inscription {
+        width: 100%;
+        padding: 10px;
+    }
     }
