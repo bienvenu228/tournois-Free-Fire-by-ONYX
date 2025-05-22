@@ -1,7 +1,7 @@
 .backgroundimage{
     background-image: url(./images/free\ fire\ BG.jpeg);
     height: 1000px;
-    width: 1200px;
+    width: 1200;
 }
 h1{
     text-align: center; 
@@ -69,15 +69,15 @@ button:hover{
 }
 @media (max-width: 768px) {
     .Inscription {
-        width: 90%;
+        width: 95%;
         padding: 10px;
 }
-    
+
     }
 
    @media (max-width: 480px) {
     .Inscription {
-        width: 90%;
+        width: 100%;
         padding: 10px;
     }
     }
